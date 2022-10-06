@@ -8,23 +8,7 @@ import NavBar from "./components/NavBar";
 function App() {
   const [page, setPage] = useState("/")
 
-  return (
-
-    <div className="App">
-      <NavBar onChangePage = {setPage}/>
-      <Switch>
-        <Route path="/about">
-            <About />
-        </Route>
-        <Route path="/reviews">
-            <Reviews />
-        </Route>
-        <Route exact path="/">
-            <Main />
-        </Route>
-      </Switch>
-    
-    </div>
+  
   );
 }
 
