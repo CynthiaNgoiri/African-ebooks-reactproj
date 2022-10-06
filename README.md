@@ -28,11 +28,15 @@ This is a website that shows a list of novels and a user can view the novels tog
  e) **Installation Process**
     Technology Used:-**
 
-    •  HTML - which was used to build the structure of the pages.
+    * HTML - which was used to build the structure of the pages.
       
-    •  JavaScript – Used to add functionality to the web page.
+    * React – Used to add functionality to the web page.
       
-    •  CSS - which was used to style the pages. 
+    * CSS - which was used to style the pages. 
+    
+    * API  - which serves data to our application.
+    
+    
 
 f) **Project Preview** <br>
   
@@ -44,6 +48,7 @@ g) **Reference**
 * Tutorials-point
 * MDN JavaScript
 * W3 Schools
+* Scrimba
 
 
 
@@ -51,7 +56,7 @@ h) **** License****
 
 MIT License
 
-Copyright (c) [2022] [Ian Gacheru]
+Copyright (c) [2022] [Cynthia Njomo]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this application and associated documentation files.
@@ -62,8 +67,7 @@ copies or substantial portions of the Software.
 
 
 i) **Authors Info**
+   Cynthia Njomo
 
 
-Linked – [Ian Gacheru - https://www.linkedin.com/in/ian-kibui-b12121160/)
 
-[Go Back to the top](#portfolio)
