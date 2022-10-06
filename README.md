@@ -1,6 +1,6 @@
 a) **E-Novel Collection**
 
-	By Ian Gacheru
+	By Cynthia Njomo
 	
 
  b)     Table of Content
