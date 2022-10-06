@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.search-bar {
+  margin: 1rem 0;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #b7410e;
+  outline: none;
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+  margin-left: 42%;
+  background-color: #ffff;
+  text-align: center;
+}
+input {
+  font-size: 1.3rem;
+}
+p {
+  font-family: "Alkalami", serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* New books */
+.book-parent {
+  width: 90%;
+  display: flex;
+}
+.book-collection {
+  width: 30%;
+  margin: 0 auto;
+}
+.book-card {
+  text-align: center;
+  /* float: left; */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.book-card img {
+  width: 100%;
+}
+
+/* New books */
+.nav {
+  background-color: #b7410e;
+  color: #ffcc99;
+  display: flex;
+  gap: 2rem;
+  padding: 5px;
+  justify-content: center;
+}
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.65rem;
+}
+.nav li:hover {
+  background-color: #ffcc99;
+}
+.nav li.active {
+  background-color: #ffcc99;
+}
+
+/* About Section */
+.about {
+  max-width: 50%;
+  margin: auto;
+}
+.about h1,
+h3 {
+  text-align: center;
+}
+.review-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.review-image {
+  width: 45%;
+}
+.form-container {
+  width: 45%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.form-container input,textarea {
+    padding: 6px;
+    margin: 6px 0;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    
+
+
+}
+.review-image img {
+  width: 100%;
+}
+#submitButton{
+    background-color:#b7410e;
+    border: none;
+    padding: 6px 12px ;
+    color: white;
+    border-radius: 5px;
+
+}
