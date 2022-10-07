@@ -7,7 +7,7 @@ function Ebooks() {
   const [searchValue, setSearchValue] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/ebooks")
+    fetch("https://ebooks-lib-api.herokuapp.com/ebooks")
       .then((res) => res.json())
       .then((resp) => {
         setEbooks(resp);

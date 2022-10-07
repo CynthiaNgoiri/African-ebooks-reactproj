@@ -14,7 +14,7 @@ function Reviews() {
     event.preventDefault();
     const formData = { firstName, lastName, review }
 
-    fetch(`http://localhost:3000/reviews`, {
+    fetch(`https://ebooks-lib-api.herokuapp.com/reviews`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData)
@@ -29,7 +29,7 @@ function Reviews() {
 
   //Here we perform a get request using useEffect :)
   useEffect(() => {
-    fetch(`http://localhost:3000/reviews`)
+    fetch(`https://ebooks-lib-api.herokuapp.com/reviews`)
       .then((resp) => resp.json())
       .then((reviews) => {
         console.log(reviews)
