@@ -4,53 +4,69 @@
       "id": 1,
       "title": "His Only Wife",
       "publishedDate": "2016",
-      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1601488515i/49151001.jpg"
+      "image": "https://i.ibb.co/fvjSMXn/trial.jpg"
     },
-
     {
       "id": 2,
       "title": "A Thousand Splendid Suns.",
       "publishedDate": "2013",
-      "image": "https://i0.wp.com/diwanegypt.com/wp-content/uploads/2020/08/9781526604750.jpg?resize=600%2C930&ssl=1"
+      "image": "https://i.ibb.co/cgR9cLx/2.webp"
     },
-
     {
       "id": 3,
       "title": "Infidel My Life.",
       "publishedDate": "2017",
-      "image": "https://s3.ap-south-1.amazonaws.com/storage.commonfolks.in/docs/products/images_full/infidel-my-life_FrontImage_434.jpg"
+      "image": "https://i.ibb.co/2KYjKR8/4.jpg"
     },
-
     {
       "id": 4,
       "title": "Half of a Yellow Sun",
       "publishedDate": "2011",
-      "image": "https://m.media-amazon.com/images/I/51-pS9kOyuL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
+      "image": "https://i.ibb.co/VVM2rzp/3.webp"
     },
-
     {
       "id": 5,
       "title": "A Girl is a Body of Water.",
       "publishedDate": "2012",
-      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1595008386i/51188678.jpg"
+      "image": "https://i.ibb.co/3CG4ZcX/5.jpg"
     },
     {
       "id": 6,
       "title": "The Shadow King.",
       "publishedDate": "2018",
-      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555946748i/43726511.jpg"
+      "image": "https://i.ibb.co/jTk2dy9/6.jpg"
     },
     {
       "id": 7,
       "title": "Love in Color.",
       "publishedDate": "2013",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeDlTYBqtA95Knu2-xkqYxpEviplGCzKGm7D1OwjwSKPDGZ8PAEr0jL-elfUQjOoe6cts&usqp=CAU"
+      "image": "https://i.ibb.co/6B0pT6m/7.jpg"
     },
     {
       "id": 8,
       "title": "How Beautiful We Were.",
       "publishedDate": "2019",
-      "image": "https://images2.penguinrandomhouse.com/cover/9780593132449"
+      "image": "https://i.ibb.co/Ss2dpRJ/trial.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "firstName": "Jon",
+      "lastName": "Doe",
+      "review": "Great!"
+    },
+    {
+      "firstName": "cynthia",
+      "lastName": "njomo",
+      "review": "Okay!",
+      "id": 2
+    },
+    {
+      "firstName": "David ",
+      "lastName": "Ondiege",
+      "review": "Fantastic!",
+      "id": 3
     }
   ]
 }

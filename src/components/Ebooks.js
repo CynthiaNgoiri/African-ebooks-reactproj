@@ -2,18 +2,19 @@ import React, { useState, useEffect } from "react";
 import Home from "./Home";
 import Search from "./Search";
 
-function Main() {
+function Ebooks() {
   const [ebooks, setEbooks] = useState([]);
   const [searchValue, setSearchValue] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3002/ebooks")
+    fetch("http://localhost:3000/ebooks")
       .then((res) => res.json())
       .then((resp) => {
         setEbooks(resp);
         setSearchValue(resp);
       });
   }, []);
+  console.log(ebooks);
 
   function change(event) {
     setEbooks(
@@ -30,4 +31,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Ebooks;
